@@ -1,0 +1,64 @@
+.table {
+  width: 100%;
+  border: 1px solid #312100;
+  border-collapse: collapse;
+  background-color: rgb(255, 229, 127, 0.5);
+  position: relative;
+}
+
+th, td {
+  border-bottom: 1px solid #312100;
+  padding: 10px 0px;
+}
+
+.container {
+    width:85%;
+    margin: auto;
+    padding: 3% 0;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #ffab00;
+}
+
+th:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: rgb(255, 171, 0, 0.8);
+    text-decoration: underline;
+}
+
+.footer {
+    height: 30px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 229, 127, 0.5);
+    border: 1px solid #312100;
+    border-top: none;
+}
+
+input {
+    width: 30px;
+    margin: 0px 10px;
+}
+
+button {
+    background-color: #ffab00;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+button:hover {
+    background-color: #c48300;
+}
