@@ -4,7 +4,7 @@ import "./card.css";
 const card = props => {
   return (
     <div className="card">
-      some content
+      <p>{props.text}</p>
       <button onClick={props.clicked}>Close</button>
     </div>
   );

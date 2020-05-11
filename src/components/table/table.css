@@ -46,6 +46,7 @@ td:hover {
 }
 
 input {
+    text-align: center;
     width: 30px;
     margin: 0px 10px;
 }
@@ -61,4 +62,18 @@ button {
 
 button:hover {
     background-color: #c48300;
+}
+
+.clickedRow {
+    background-color: rgb(255, 229, 127, 0.8);
+}
+
+.rowCount {
+    margin: 0px 20px;
+    margin-bottom: 3px;
+}
+
+.selectLabel {
+    margin-right: 10px;
+    margin-bottom: 3px;
 }
