@@ -28,6 +28,10 @@ th:hover {
     cursor: pointer;
 }
 
+h1 {
+    color:#ffab00;
+}
+
 td:hover {
     background-color: rgb(255, 171, 0, 0.8);
     text-decoration: underline;

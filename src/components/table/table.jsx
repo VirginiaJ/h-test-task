@@ -84,8 +84,7 @@ export default (Table) => {
   };
 
   const handleRowClick = (row) => {
-    if (!openCard)
-    setRowClicked(row);
+    if (!openCard) setRowClicked(row);
   };
 
   function sortRows(array, orderBy, order, hashMap) {
@@ -136,6 +135,7 @@ export default (Table) => {
 
   return (
     <div className="container">
+      <h1>Breweries of United States</h1>
       {openCard ? (
         <Card clicked={handleCellClick} text={selectedCellData} />
       ) : null}
@@ -201,7 +201,7 @@ export default (Table) => {
               {page * rowsPerPage +
                 1 +
                 " - " +
-                (page * rowsPerPage + rowsPerPage)}
+                (page * rowsPerPage + rowsPerPage) + " of " + ids.length}
             </span>
             <button onClick={handlePrevPage}>Previous page</button>
             <input
